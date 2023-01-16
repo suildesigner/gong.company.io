@@ -13,13 +13,13 @@
     <span><hr style="border: solid 1px rgb(196, 50, 50);"></span><br>
     <div>이름</div>
     <script>
-        var test = "멍청이";
+
         const params = location.search.replace(/^\?/, "").split("&").map(param => {
         const [key, value] = param.split("=");
         return { [key]: value };
         }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
-        document.write(test);
-        document.write(params);
+
+        document.write(JSON.stringify(params));
     </script><br>
 
     <div>상품</div><br>
