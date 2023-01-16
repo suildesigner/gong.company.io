@@ -1,6 +1,35 @@
 <html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        div{
+            float: left;
+        }
+    </style>
+
 <body>
-    <div style="font-style: italic">고객정보</div>
-    <div><hr style="border: solid 10px rgb(247, 160, 160);"></div>
+    <div style="font-size: 13px; color: rgb(136, 136, 136); font-family: 'Noto Sans KR'; letter-spacing: -0.8px">고객정보</div><br>
+    <span><hr style="border: solid 1px rgb(196, 50, 50);"></span><br>
+    <div>이름</div>
+    <script>
+        var test = "멍청이";
+        const params = location.search.replace(/^\?/, "").split("&").map(param => {
+        const [key, value] = param.split("=");
+        return { [key]: value };
+        }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+        document.write(test);
+        document.write(params);
+    </script><br>
+
+    <div>상품</div><br>
+
+    <div>배송</div><br>
+
+    <div>결제</div><br>
+
+    <div>주문</div>
+
+
 </body>
 </html>
