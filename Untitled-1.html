@@ -46,6 +46,15 @@
             line-height: 17px;
             letter-spacing: -0.8px;
         }
+
+        #bt {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+            margin-top: 5px;
+        }
     </style>
 
 <body>
@@ -152,7 +161,7 @@
 
 
 
-        <div onclick="naverc()">바로가기</div>
+        <input type="button" id="bt" value="네이버 쇼핑" onclick="naverc()">
 
         <script>
             var naver1 = "https://sell.smartstore.naver.com/#/naverpay/manage/order?detailSearch.type=COLLECTOR_NAME&detailSearch.keyword=";
@@ -160,7 +169,7 @@
             var naver3 = naver1+naver2;
             
             function naverc() {
-                window.open(naver3);
+                window.location = 'microsoft-edge:' + naver3;
             }
         </script>
 
