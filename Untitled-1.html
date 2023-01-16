@@ -1,40 +1,170 @@
-
-
-<!DOCTYPE html>
 <html>
-    
     <head>
-        
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
-    <body>
-        
-        <input type="text" class="inputText" placeholder="입력하세요"/>
-        <button onclick="btnClick();">클릭하세요</button>
+    <style>
+        div{
+            float: left;
+        }
+
+        #name {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name2 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name3 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name4 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name5 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+    </style>
+
+<body>
+    <div style="font-size: 13px; color: rgb(136, 136, 136); font-family: 'Noto Sans KR'; letter-spacing: -0.8px">고객정보</div><br>
+    <span><hr style="border: solid 1px rgb(230, 230, 230);"></span>
+
+
+
+    <div style="font-size: 12px; color: #767676; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">이름</div>
+    
+    <div id="name">&nbsp;&nbsp;&nbsp;
+    <script>
+
+        const params = location.search.replace(/^\?/, "").split("&").map(param => {
+        const [key, value] = param.split("=");
+        return { [key]: value };
+        }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+
+        document.write(decodeURIComponent(params.cus_extra_username));
+
+        params.style.font= "300px";
+    </script>
+    </div><br>
+
+
+
+
+    <div style="font-size: 12px; color: #767676; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">상품</div>
+
+    <div id="name2">&nbsp;&nbsp;&nbsp;
         <script>
-
-            
-
-import org.Jsoup.Jsoup;
-
-var testtest = '';
-
-
-
-    var documents = Jsoup.connect("https://www.naver.com/").get();
-    testtest = documents.select("#NM_NEWSSTAND_data_buttons > a:nth-child(1)").val();
-
-
-
-function btnClick() {
-    $(".inputText").val("testtest");
-}
-
-
-            
+    
+            const params2 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+    
+            document.write(decodeURIComponent(params2.parameter1));
+    
         </script>
-    </body>
+        </div><br>
+
+
+
+
+
+    <div style="font-size: 12px; color: #767676; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">배송</div>
+
+    <div id="name3">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params3 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+    
+            document.write(decodeURIComponent(params3.parameter2));
+    
+        </script>
+        </div><br>
+
+
+
+
+    <div style="font-size: 12px; color: #767676; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">결제</div>
+
+    <div id="name4">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params4 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+    
+            document.write(decodeURIComponent(params4.parameter3));
+    
+        </script>
+        </div><br>
+
+
+
+
+    <div style="font-size: 12px; color: #767676; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">주문</div>
+
+    <div id="name5">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params5 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+
+            //const params5m = params5.parameter4.substr(0,4);
+    
+            document.write(decodeURIComponent(params5.parameter4));
+    
+        </script>
+        </div><br>
+
+        <span><hr style="border: solid 1px rgb(230, 230, 230);"></span>
+
+        <div style="font-size: 13px; color: rgb(136, 136, 136); font-family: 'Noto Sans KR'; letter-spacing: -0.8px">주문조회</div><br>
+
+
+
+        <script>
+            var naver1 = "https://sell.smartstore.naver.com/#/naverpay/manage/order?detailSearch.type=COLLECTOR_NAME&detailSearch.keyword=";
+            var naver2 = params.cus_extra_username;
+            var naver3 = naver1+naver2;
+            window.onload = () => {
+                document.getElementById('params').value=naver3;
+            }
+        </script>
+
+
+        <input type="hidden" id="params" name="params" value="${naver3}">
+        <button type="button" onclick="location.href=naver3">바로가기</button>
+
+
+
+</body>
 </html>
