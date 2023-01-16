@@ -19,7 +19,7 @@
         return { [key]: value };
         }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
 
-        document.write(JSON.stringify(params));
+        document.write(decodeURIComponent(params));
     </script><br>
 
     <div>상품</div><br>
