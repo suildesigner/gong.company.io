@@ -137,8 +137,10 @@
             const [key, value] = param.split("=");
             return { [key]: value };
             }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+
+            const params5m = params5.substring(0, 4);
     
-            document.write(decodeURIComponent(params5.parameter4));
+            document.write(decodeURIComponent(params5m.parameter4));
     
         </script>
         </div><br>
