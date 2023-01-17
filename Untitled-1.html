@@ -54,6 +54,16 @@
             line-height: 17px;
             letter-spacing: -0.8px;
             margin-top: 5px;
+            width: 90px;
+        }
+        #bt2 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+            margin-top: 5px;
+            width: 90px;
         }
     </style>
 
@@ -170,6 +180,19 @@
             
             function naverc() {
                 window.location = 'microsoft-edge:' + naver3;
+            }
+        </script><br>
+
+
+        <input type="button" id="bt2" value="애즈랜드" onclick="asc()">
+
+        <script>
+            var as1 = "https://www.adsland.com/mypage/order_list.php?fr_date=2022-12-18&to_date=2023-01-17&sts_code=&set_day=&mb_id=&sort=3&cnt_srch=15&sql_excel=&srch_word=";
+            var as2 = params.cus_extra_username;
+            var as3 = as1+as2;
+            
+            function asc() {
+                window.location = 'microsoft-edge:' + as3;
             }
         </script>
 
