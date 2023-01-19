@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        div{
+            float: left;
+        }
+
+        #name {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name2 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name3 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name4 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #name5 {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #484848;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+        }
+
+        #bt {
+            font-family: 'Noto Sans KR';
+            font-size: 13px;
+            color: #231f20;
+            line-height: 17px;
+            letter-spacing: -0.8px;
+            margin-top: 5px;
+            width: 170px;
+            height: 40px;
+            background-color: #f1f2f2;
+            border: none;
+            position: relative;
+            left: 8px;
+            top: 3px;
+            border-radius: 6px;
+            background-image: url(./image/bt1.svg);
+        }
+        #bt2 {
+            line-height: 17px;
+            letter-spacing: -0.8px;
+            margin-top: 5px;
+            width: 170px;
+            height: 40px;
+            background-color: #f1f2f2;
+            border: none;
+            position: relative;
+            left: 8px;
+            top: 3px;
+            border-radius: 6px;
+            background-image: url(./image/bt2.svg);
+        }
+
+        
+    </style>
+
+<body>
+    <div style="position:relative; left: 10px; width: 100%; top:5px">
+    <div style="font-size: 13px; color: #bcbec0; font-family: 'Noto Sans KR'; letter-spacing: -0.8px">&nbsp;&nbsp;&nbsp;고객정보</div><br>
+    <span><hr style="border: solid 1px rgb(242, 244, 247)"></span>
+
+
+
+    <div style="font-size: 12px; color: #231f20; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">&nbsp;&nbsp;&nbsp;이름</div>
+    
+    <div id="name" style="color: #231f20">&nbsp;&nbsp;&nbsp;
+    <script>
+
+        const params = location.search.replace(/^\?/, "").split("&").map(param => {
+        const [key, value] = param.split("=");
+        return { [key]: value };
+        }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+
+        document.write(decodeURIComponent(params.cus_extra_username));
+
+        params.style.font= "300px";
+    </script>
+    </div><br>
+
+
+
+
+    <div style="font-size: 12px; color: #231f20; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">&nbsp;&nbsp;&nbsp;상품</div>
+
+    <div id="name2" style="color: #231f20">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params2 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+    
+            document.write(decodeURIComponent(params2.parameter1));
+    
+        </script>
+        </div><br>
+
+
+
+
+
+    <div style="font-size: 12px; color: #231f20; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">&nbsp;&nbsp;&nbsp;배송</div>
+
+    <div id="name3" style="color: #231f20">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params3 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+    
+            document.write(decodeURIComponent(params3.parameter2));
+    
+        </script>
+        </div><br>
+
+
+
+
+    <div style="font-size: 12px; color: #231f20; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">&nbsp;&nbsp;&nbsp;결제</div>
+
+    <div id="name4" style="color: #231f20">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params4 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+    
+            document.write(decodeURIComponent(params4.parameter3));
+    
+        </script>
+        </div><br>
+
+
+
+
+    <div style="font-size: 12px; color: #231f20; font-family: 'Noto Sans KR'; letter-spacing: -0.5px">&nbsp;&nbsp;&nbsp;주문</div>
+
+    <div id="name5" style="color: #231f20">&nbsp;&nbsp;&nbsp;
+        <script>
+    
+            const params5 = location.search.replace(/^\?/, "").split("&").map(param => {
+            const [key, value] = param.split("=");
+            return { [key]: value };
+            }).reduce((acc, cur) => ({ ...acc, ...cur }), {})
+
+            //const params5m = params5.parameter4.substr(0,4);
+    
+            document.write(decodeURIComponent(params5.parameter4));
+    
+        </script>
+        </div><br>
+
+        <span><hr style="border: solid 1px rgb(242, 244, 247)"></span>
+
+        <div style="font-size: 13px; color: #bcbec0; font-family: 'Noto Sans KR'; letter-spacing: -0.8px">&nbsp;&nbsp;&nbsp;주문조회</div><br>
+
+
+
+
+        <input type="button" id="bt" onclick="naverc()">
+
+        <script>
+            var naver1 = "https://sell.smartstore.naver.com/#/naverpay/manage/order?detailSearch.type=PURCHASER_NAME&detailSearch.keyword=";
+            var naver2 = params.cus_extra_username;
+            var naver3 = naver1+naver2;
+            
+            function naverc() {
+                window.location = 'microsoft-edge:' + naver3;
+            }
+        </script><br>
+
+
+        <input type="button" id="bt2" onclick="asc()">
+
+        <script>
+            var as1 = "https://www.adsland.com/mypage/order_list.php?fr_date=2022-12-18&to_date=2023-01-17&sts_code=&set_day=&mb_id=&sort=3&cnt_srch=15&sql_excel=&srch_word=";
+            var as2 = params.cus_extra_username;
+            var as3 = as1+as2;
+            
+            function asc() {
+                window.location = 'microsoft-edge:' + as3;
+            }
+        </script>
+
+</div>
+
+
+        
+
+
+
+
+</body>
+</html>
