@@ -12,16 +12,102 @@
         <script src="./image_index.js" defer></script>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
-    <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+    <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" onload="qnaStart()">
         <div id="topBar">
             <div id="topLogo"></div>
         </div>
 
         <div id="mainBox">
+        <div id="subBox">
             <div id="item1"></div>
             <div id="item2"></div>
             <div id="item3"></div>
+            <div id="item4"></div>
+            <div id="item5"></div>
+            <div id="item6"></div>
         </div>
+        </div>
+        <div id="searchBox">
+            <input type="text" id="search" onkeyup="filter()" autocomplete="off" maxlength='30' placeholder="자주 묻는 질문을 검색해 보세요.">
+        </div>
+        <div id="listBox">
+            <div class="listInner" onclick="qna0()" style="cursor:pointer;">
+                <div class="country"></div>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna1()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna2()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna3()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna4()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna5()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna6()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna7()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna8()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna9()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna10()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna11()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna12()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna13()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna14()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna15()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna16()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+            <div class="listInner" onclick="qna17()" style="cursor:pointer;">
+                <span class="country"></span>
+                <span class="city"></span>
+            </div>
+        </div>
+
+
+
+        <div id="bottomBar">Copyright © 00company All Rights Reserved.</div>
 
     </body>
 </html>

@@ -4,7 +4,7 @@
     height: 50px;
     background-color: #ffffff;
     border: 1px;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 #topLogo {
@@ -18,42 +18,218 @@
     background-position: center;
 }
 
-body {
-    background-color: #f8f9fa;
-}
-
-
 
 #mainBox {
     width: 100%;
-    height: auto;
+    background-color: #f8f9fa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#subBox {
+    position: relative;
+    width: 100%;
     text-align: center;
-    margin-top: 20px;
+    max-width: 1280px;
+    margin: 0px auto;
 }
 
 #item1 {
     width: 400px;
-    height: 300px;
-    background-color: blue;
+    height: 250px;
     margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
+    max-width: calc(100% - 40px);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(./source/card.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 0;
+    letter-spacing: 0;
+    word-spacing: 0;    
 }
 
 #item2 {
     width: 400px;
-    height: 300px;
-    background-color: green;
+    height: 250px;
     margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
+    max-width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-image: url(./source/memo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #item3 {
     width: 400px;
-    height: 300px;
-    background-color: yellow;
+    height: 250px;
     margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
+    max-width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-image: url(./source/case.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+#item4 {
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    max-width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-image: url(./source/tok.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#item5 {
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    max-width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-image: url(./source/coupon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#item6 {
+    width: 400px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    max-width: calc(100% - 40px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-image: url(./source/cup.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#item1:hover {
+    opacity: 70%;
+}
+
+#item2:hover {
+    opacity: 70%;
+}
+
+#item3:hover {
+    opacity: 70%;
+}
+
+#item4:hover {
+    opacity: 70%;
+}
+
+#item5:hover {
+    opacity: 70%;
+}
+
+#item6:hover {
+    opacity: 70%;
+}
+
+
+#searchBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+}
+
+#search {
+    position: relative;
+    height: 40px;
+    color: #000;
+    font-size: 13;
+    border-radius: 50px;
+    border: none;
+    width:500px;
+    max-width: calc(100% - 40px);
+    background-color:#fff;
+    transform:rotate(-0.03deg);
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    letter-spacing: -0.8px;
+    margin-top: 5px;
+}
+
+#search:focus {
+    outline: none;
+}
+
+#search::placeholder {
+    color:#bcbec0;
+}
+
+
+#listBox {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    justify-content : center;
+}
+
+.listInner {
+    background-color: #ffffff;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    margin: -1px 5px;
+    padding: 14px;
+    text-align: center;
+    justify-content : center;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    letter-spacing: -0.8px;
+    font-size: 13;
+    justify-content : center;
+}
+
+.country {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    letter-spacing: -0.8px;
+    font-size: 13;
+    justify-content : center;
+}
+
+#bottomBar {
+    position: relative;
+    width: 100%;
+    border: 1px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    color: #d5d5d5;
+    margin-bottom: 15px;
+}
+
