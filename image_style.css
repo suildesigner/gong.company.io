@@ -1,0 +1,59 @@
+#topBar {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px;
+    border-bottom: 1px solid red;
+}
+
+#topLogo {
+    position: relative;
+    width: 110px;
+    height: 100%;
+    background-image: url(./source/gonglogo.svg);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+
+#mainBox {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#item1 {
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#item2 {
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#item3 {
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
