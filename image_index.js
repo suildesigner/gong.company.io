@@ -1,5 +1,32 @@
 function closes() {
-    location.reload();
+
+    var preview1 = document.getElementById('Outs');
+    var preview2 = document.getElementById('Outs2');
+    var preview3 = document.getElementById('Outs3');
+    var preview4 = document.getElementById('Outs4');
+    var preview5 = document.getElementById('Outs5');
+    var preview6 = document.getElementById('Outs6');
+    var preview7 = document.getElementById('Outs7');
+    var preview8 = document.getElementById('Outs8');
+    var preview9 = document.getElementById('Outs9');
+    var preview10 = document.getElementById('Outs10');
+    var preview11 = document.getElementById('Outs11');
+  
+      preview1.style.backgroundImage = "";
+      preview2.style.backgroundImage = "";
+      preview3.style.backgroundImage = "";
+      preview4.style.backgroundImage = "";
+      preview5.style.backgroundImage = "";
+      preview6.style.backgroundImage = "";
+      preview7.style.backgroundImage = "";
+      preview8.style.backgroundImage = "";
+      preview9.style.backgroundImage = "";
+      preview10.style.backgroundImage = "";
+      preview11.style.backgroundImage = "";
+
+    document.getElementById('img-file').value = "";
+
+    document.getElementById('imageBox').style.display="none";
 }
 
 function temClick1() {
