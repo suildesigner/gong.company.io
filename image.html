@@ -11,20 +11,140 @@
 
         <script src="./image_index.js" defer></script>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </head>
     <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" onload="qnaStart()">
+        <div id="imageBox">
+            <div id="imageSubbox">
+                <button type="button" id="fakesave">이미지 불러오기</button>
+                <input type="file" id="img-file" oninput="previewFile()" style="opacity: 0%" accept="image/*" multiple />
+                <div id="closeBt" onclick="closes()" style="cursor:pointer;"></div>
+                <div id="Out">
+                    <div id="Outs">
+                        <div id="in">
+                            <div id="ins"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out2">
+                    <div id="Outs2">
+                        <div id="in2">
+                            <div id="ins2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out3">
+                    <div id="Outs3">
+                        <div id="in3">
+                            <div id="ins3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out4">
+                    <div id="Outs4">
+                        <div id="in4">
+                            <div id="ins4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out5">
+                    <div id="Outs5">
+                        <div id="in5">
+                            <div id="ins5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out6">
+                    <div id="Outs6">
+                        <div id="in6">
+                            <div id="ins6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out7">
+                    <div id="Outs7">
+                        <div id="in7">
+                            <div id="ins7"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out8">
+                    <div id="Outs8">
+                        <div id="in8">
+                            <div id="ins8"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out9">
+                    <div id="Outs9">
+                        <div id="in9">
+                            <div id="ins9"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out10">
+                    <div id="Outs10">
+                        <div id="in10">
+                            <div id="ins10"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Out11">
+                    <div id="Outs11">
+                        <div id="in11">
+                            <div id="ins11"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="topBar">
             <div id="topLogo"></div>
         </div>
-
         <div id="mainBox">
         <div id="subBox">
-            <div id="item1"></div>
-            <div id="item2"></div>
-            <div id="item3"></div>
-            <div id="item4"></div>
-            <div id="item5"></div>
-            <div id="item6"></div>
+            <div id="item1" onclick="temClick1()" style="cursor:pointer;">
+                <div id="menuBox1">
+                    <div id="menuA">
+                    <div id="menuA1" onclick="ma1()">포토카드 가로</div>
+                    <div id="menuA2" onclick="ma2()">포토카드 세로</div>
+                    </div>
+                </div>
+            </div>
+            <div id="item2" onclick="temClick2()" style="cursor:pointer;">
+                <div id="menuBox2">
+                    <div id="menuA">
+                    <div id="menuB1" onclick="mb1()">떡메모지 80×80mm</div>
+                    <div id="menuB2" onclick="mb2()">떡메모지 86×95mm</div>
+                    <div id="menuB3" onclick="mb3()">떡메모지 90×90mm</div>
+                    <div id="menuB4" onclick="mb4()">떡메모지 100×100mm</div>
+                    <div id="menuB5" onclick="mb5()">떡메모지 100×140mm</div>
+                    </div>
+                </div>
+            </div>
+            <div id="item3" onclick="temClick3()" style="cursor:pointer;">
+                <div id="menuBox3">
+                    <div id="menuA">
+                    <div id="menuC1" onclick="mc1()">틴케이스 82×58mm</div>
+                    </div>
+                </div>
+            </div>
+            <div id="item4" onclick="temClick4()" style="cursor:pointer;">
+                <div id="menuBox4">
+                    <div id="menuA">
+                    <div id="menuD1" onclick="md1()">스마트톡 38×38mm</div>
+                    </div>
+                </div>
+            </div>
+            <div id="item5" onclick="temClick5()" style="cursor:pointer;">
+                <div id="menuBox5">
+                    <div id="menuA">
+                    <div id="menuE1" onclick="me1()">명함 86×52mm</div>
+                    <div id="menuE2" onclick="me2()">명함 90×50mm</div>
+                    </div>
+                </div>
+            </div>
+            <div id="item6" style="cursor:pointer;"></div>
         </div>
         </div>
         <div id="searchBox">

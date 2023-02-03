@@ -1,3 +1,263 @@
+function closes() {
+    location.reload();
+}
+
+function temClick1() {
+    var temCheck = document.getElementById('menuBox1');
+
+    if(temCheck.style.display === "none") {
+        temCheck.style.display = "block";
+    } else {
+        temCheck.style.display = "none";
+    }
+}
+
+function temClick2() {
+    var temCheck = document.getElementById('menuBox2');
+
+    if(temCheck.style.display === "none") {
+        temCheck.style.display = "block";
+    } else {
+        temCheck.style.display = "none";
+    }
+}
+
+function temClick3() {
+    var temCheck = document.getElementById('menuBox3');
+
+    if(temCheck.style.display === "none") {
+        temCheck.style.display = "block";
+    } else {
+        temCheck.style.display = "none";
+    }
+}
+
+function temClick4() {
+    var temCheck = document.getElementById('menuBox4');
+
+    if(temCheck.style.display === "none") {
+        temCheck.style.display = "block";
+    } else {
+        temCheck.style.display = "none";
+    }
+}
+
+function temClick5() {
+    var temCheck = document.getElementById('menuBox5');
+
+    if(temCheck.style.display === "none") {
+        temCheck.style.display = "block";
+    } else {
+        temCheck.style.display = "none";
+    }
+}
+
+function ma1() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="block";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+function ma2() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="block";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+
+function mb1() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="block";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+function mb2() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="block";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+function mb3() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="block";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+    
+}
+
+function mb4() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="block";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+    
+}
+
+function mb5() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="block";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+function mc1() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="block";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+function md1() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="block";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+}
+
+function me1() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="block";
+    document.getElementById('Out11').style.display="none";
+}
+
+function me2() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="block";
+}
+
+function previewFile() {
+    var preview1 = document.getElementById('Outs');
+    var preview2 = document.getElementById('Outs2');
+    var preview3 = document.getElementById('Outs3');
+    var preview4 = document.getElementById('Outs4');
+    var preview5 = document.getElementById('Outs5');
+    var preview6 = document.getElementById('Outs6');
+    var preview7 = document.getElementById('Outs7');
+    var preview8 = document.getElementById('Outs8');
+    var preview9 = document.getElementById('Outs9');
+    var preview10 = document.getElementById('Outs10');
+    var preview11 = document.getElementById('Outs11');
+    var file    = document.getElementById('img-file').files[0];
+    var reader  = new FileReader();
+  
+    reader.addEventListener("load", function () {
+      preview1.style.backgroundImage = `url(${reader.result})`;
+      preview2.style.backgroundImage = `url(${reader.result})`;
+      preview3.style.backgroundImage = `url(${reader.result})`;
+      preview4.style.backgroundImage = `url(${reader.result})`;
+      preview5.style.backgroundImage = `url(${reader.result})`;
+      preview6.style.backgroundImage = `url(${reader.result})`;
+      preview7.style.backgroundImage = `url(${reader.result})`;
+      preview8.style.backgroundImage = `url(${reader.result})`;
+      preview9.style.backgroundImage = `url(${reader.result})`;
+      preview10.style.backgroundImage = `url(${reader.result})`;
+      preview11.style.backgroundImage = `url(${reader.result})`;
+      document.getElementById('ins').style.display = "block";
+    }, false);
+  
+    if (file) {
+      reader.readAsDataURL(file);
+    }
+}
+
+
+
+
 function filter() {
     let search = document.getElementById("search").value.toLowerCase();
     let listInner = document.getElementsByClassName("listInner");
@@ -107,6 +367,11 @@ var a17 = "방문 수령이 가능한가요?\n\n방문 수령은 불가합니다
 
 
 function qnaStart() {
+    document.getElementById('menuBox1').style.display="none";
+    document.getElementById('menuBox2').style.display="none";
+    document.getElementById('menuBox3').style.display="none";
+    document.getElementById('menuBox4').style.display="none";
+    document.getElementById('menuBox5').style.display="none";
     t0.innerText = q0;
     t1.innerText = q1;
     t2.innerText = q2;
