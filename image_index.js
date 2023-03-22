@@ -1,3 +1,9 @@
+var temCheck = document.getElementById('menuBox6');
+
+temCheck.style.display = "none";
+
+
+
 function closes() {
 
     var preview1 = document.getElementById('Outs');
@@ -11,6 +17,7 @@ function closes() {
     var preview9 = document.getElementById('Outs9');
     var preview10 = document.getElementById('Outs10');
     var preview11 = document.getElementById('Outs11');
+    var preview12 = document.getElementById('Outs12');
   
       preview1.style.backgroundImage = "";
       preview2.style.backgroundImage = "";
@@ -23,6 +30,7 @@ function closes() {
       preview9.style.backgroundImage = "";
       preview10.style.backgroundImage = "";
       preview11.style.backgroundImage = "";
+      preview12.style.backgroundImage = "";
 
     document.getElementById('img-file').value = "";
 
@@ -79,6 +87,16 @@ function temClick5() {
     }
 }
 
+function temClick6() {
+    var temCheck = document.getElementById('menuBox6');
+
+    if(temCheck.style.display === "none") {
+        temCheck.style.display = "block";
+    } else {
+        temCheck.style.display = "none";
+    }
+}
+
 function ma1() {
     document.getElementById('imageBox').style.display="block";
     document.getElementById('Out').style.display="block";
@@ -92,6 +110,7 @@ function ma1() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function ma2() {
@@ -107,6 +126,7 @@ function ma2() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 
@@ -123,6 +143,7 @@ function mb1() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function mb2() {
@@ -138,6 +159,7 @@ function mb2() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function mb3() {
@@ -153,6 +175,7 @@ function mb3() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
     
 }
 
@@ -169,6 +192,7 @@ function mb4() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
     
 }
 
@@ -185,6 +209,7 @@ function mb5() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function mc1() {
@@ -200,6 +225,7 @@ function mc1() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function md1() {
@@ -215,6 +241,7 @@ function md1() {
     document.getElementById('Out9').style.display="block";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function me1() {
@@ -230,6 +257,7 @@ function me1() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="block";
     document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="none";
 }
 
 function me2() {
@@ -245,6 +273,23 @@ function me2() {
     document.getElementById('Out9').style.display="none";
     document.getElementById('Out10').style.display="none";
     document.getElementById('Out11').style.display="block";
+    document.getElementById('Out12').style.display="none";
+}
+
+function mf1() {
+    document.getElementById('imageBox').style.display="block";
+    document.getElementById('Out').style.display="none";
+    document.getElementById('Out2').style.display="none";
+    document.getElementById('Out3').style.display="none";
+    document.getElementById('Out4').style.display="none";
+    document.getElementById('Out5').style.display="none";
+    document.getElementById('Out6').style.display="none";
+    document.getElementById('Out7').style.display="none";
+    document.getElementById('Out8').style.display="none";
+    document.getElementById('Out9').style.display="none";
+    document.getElementById('Out10').style.display="none";
+    document.getElementById('Out11').style.display="none";
+    document.getElementById('Out12').style.display="block";
 }
 
 function previewFile() {
@@ -259,6 +304,7 @@ function previewFile() {
     var preview9 = document.getElementById('Outs9');
     var preview10 = document.getElementById('Outs10');
     var preview11 = document.getElementById('Outs11');
+    var preview12 = document.getElementById('Outs12');
     var file    = document.getElementById('img-file').files[0];
     var reader  = new FileReader();
   
@@ -274,6 +320,7 @@ function previewFile() {
       preview9.style.backgroundImage = `url(${reader.result})`;
       preview10.style.backgroundImage = `url(${reader.result})`;
       preview11.style.backgroundImage = `url(${reader.result})`;
+      preview12.style.backgroundImage = `url(${reader.result})`;
       document.getElementById('ins').style.display = "block";
     }, false);
   
