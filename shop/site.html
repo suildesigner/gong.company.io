@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="icon" href="./source/ms-icon-310x310.png">
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>공공 디자인</title>
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="./siteindex.js" defer></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    </head>
+    <body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" style="overflow-y: hidden; overflow-x: hidden;">
+
+        <div id="topBar">
+            <div id="topLogo"></div>
+        </div>
+
+        <div id="leftBar">
+            <ul class="tabs">
+                <li class="tab-link current" data-tab="tab-1">시안</li>
+                <li class="tab-link" data-tab="tab-2">템플릿</li>
+            </ul>
+
+            <div id="tab-1" class="tab-content current">
+                <div id="shop1"></div>
+                <div id="shop2"></div>
+                <div id="shop3"></div>
+                <div id="shop4"></div>
+                <div id="shop5"></div>
+                <div id="shop6"></div>
+            </div>
+
+            <div id="tab-2" class="tab-content">
+                <p>준비중</p>
+            </div>
+
+
+        </div>
+
+        <div id="container">
+
+        <div id="mainBar">
+            <div id="menuBar">
+                <div class="dropdown-select">
+                    <div class="dropdown-selected"></div>
+                    <div class="dropdown-list">
+                      <div class="dropdown-item" data-value="1"></div>
+                      <div class="dropdown-item" data-value="2"></div>
+                      <div class="dropdown-item" data-value="3"></div>
+                      <div class="dropdown-item" data-value="4"></div>
+                      <div class="dropdown-item" data-value="5"></div>
+                      <div class="dropdown-item" data-value="6"></div>
+                      <div class="dropdown-item" data-value="7"></div>
+                      <div class="dropdown-item" data-value="8"></div>
+                      <div class="dropdown-item" data-value="9"></div>
+                      <div class="dropdown-item" data-value="10"></div>
+                      <div class="dropdown-item" data-value="11"></div>
+                      <div class="dropdown-item" data-value="12"></div>
+                      <div class="dropdown-item" data-value="13"></div>
+                      <div class="dropdown-item" data-value="14"></div>
+                      <div class="dropdown-item" data-value="15"></div>
+                    </div>
+                </div>
+                <div id="upload">파일 업로드</div>
+                <input type="file" id="fileInput" accept="image/*">
+                <div id="imgSave">이미지 저장</div>
+                <div id="line"></div>
+                <div class="dropdown2-select">
+                    <div class="dropdown2-selected"></div>
+                    <div class="dropdown2-list">
+                      <div class="dropdown2-item" data-value="1" data-font="GmarketSansMedium"></div>
+                      <div class="dropdown2-item" data-value="2" data-font="LOTTERIACHAB"></div>
+                      <div class="dropdown2-item" data-value="3"></div>
+                      <div class="dropdown2-item" data-value="4"></div>
+                      <div class="dropdown2-item" data-value="5"></div>
+                    </div>
+                </div>
+                <input type="text" placeholder="텍스트를 입력해 보세요." id="texts" onkeyup='printName()'>
+                <div id="textTop"></div>
+                <div id="textMid"></div>
+                <div id="textBot"></div>
+                <div id="rangeMom">
+                <input id="control" class="slider" type="range" value="0" min="30" max="150"/>
+                </div>
+                <div id="colorOn">
+                    <div id="colorLive"></div>
+                </div>
+                <div id="colorMom">
+                <div id="box" class="box">
+                    <div id="palletBox" class="pallet">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+
+            <div id="canvasMom">
+                <canvas id="canvas"></canvas>
+                <canvas id="canvasB"></canvas>
+                <div id="canvasBarguide"></div>
+            </div>
+          
+        </div>
+         </div>
+
+
+        </body>
+        </html>
